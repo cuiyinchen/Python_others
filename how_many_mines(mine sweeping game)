@@ -1,12 +1,11 @@
 ##==============================================================
 ## Cuiyin Chen (20708813)
 ## CS 116 Winter 2018
-## Assignment 04, Problem 3
 ##==============================================================
 import math
 import check
 
-# Data definition for Q3 + Q4
+# Data definition 
 
 # A MineGrid is a (listof (listof Bool))
 # Requires:  All lists are non-empty
@@ -22,7 +21,7 @@ import check
 
 
 
-# Example board from the assignment file
+# Example board
 
 grid3x3 = [[True ,False,False],
            [False,False,False],
@@ -40,9 +39,6 @@ grid4 = [[False ,True,False],[True,True,False],[True,False,False]]
 grid5 = [[False, True], [True, True]]
 grid6 = [[True, True, False, False], [False, False, False, True],\
          [True, False, True, False], [True, False, False, True]]
-
-
-## Question 3
 
 
 # reveal(grid,board, row, col) reveals the tile at the given row and col(umn)
