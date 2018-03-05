@@ -1,13 +1,11 @@
 ##==============================================================
 ## Cuiyin Chen (20708813)
 ## CS 116 Winter 2018
-## Assignment 03, Problem 2
 ##==============================================================
 
 import check
 import math
 
-# Q2
 ## bin2nat(bistr) returns a natural number representing the decimal value
 ##   of the binary system's number bistr
 ## bin2nat: Str -> Nat
