@@ -1,13 +1,12 @@
 ##==============================================================
 ## Cuiyin Chen (20708813)
 ## CS 116 Winter 2018
-## Assignment 06, Problem 1
 ##==============================================================
 
 import check
 import math
 
-# helper function for Q1 (a) and (b)
+# helper function for (a) and (b)
 
 ## quotient_lst(n,x) returns a list of number that are the quotient of n
 ##   when n is divided by some number x
@@ -26,7 +25,7 @@ def quotient_lst(n,x):
     return lst     
 
 
-# Question 1 - part a
+# Part a
 ## nat2bin(n) returns a list of number 0 or 1 by converting the binary number 
 ##   n into the binary system's number
 ## nat2bin: Nat -> (listof (anyof 0 1))
@@ -52,7 +51,7 @@ check.expect('a6', nat2bin(16), [1,0,0,0,0])
 check.expect('a7', nat2bin(2), [1,0])
 
 
-# Question 1 - part b
+# Part b
 ## nat2base(n,base) returns a new list of number with the system of 
 ##   number base to represent the binary number n
 ## nat2base: Nat Nat -> (listof Nat)
