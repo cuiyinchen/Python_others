@@ -1,13 +1,12 @@
 ##==============================================================
 ## Cuiyin Chen (20708813)
 ## CS 116 Winter 2018
-## Assignment 04, Problem 3
 ##==============================================================
 import math
 import check
 
 
-# Data definition for Q3 + Q4
+# Data definition 
 
 # A MineGrid is a (listof (listof Bool))
 # Requires:  All lists are non-empty
@@ -23,7 +22,7 @@ import check
 
 
 
-# Example board from the assignment file
+# Example board 
 
 grid3x3 = [[True ,False,False],
            [False,False,False],
@@ -66,8 +65,6 @@ board4 = [['3', ' ', '2'],
           [' ', ' ', '2'],
           [' ', '3', '1']]
 
-
-## Question 4
 
 # game_lost(board) returns true if board contains one or more revealed mines,
 #   false otherwise
